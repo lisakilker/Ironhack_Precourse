@@ -89,7 +89,7 @@ ul {
 }
 
 h1{
-    font-weight: bold;
+    font-weight:bolder;
     height: 100px;
     font-size: 50px;
     display: flex;
@@ -118,15 +118,6 @@ h1{
     margin-left: 25em;
     text-align: center;
     font-weight: lighter;
-}
-
-.images1 {
-    display: inline-block;
-    width: 70px;
-    height: 30px;
-    padding: 10px;
-    margin: 100px;
-    padding-bottom: 10px;
 }
 
 .zero1 {
@@ -164,6 +155,13 @@ h1{
     position: relative;
     background-color: #fff;
     font-size: 14px;
+outline:1px;
+    background-color: white;
+   
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
 }
 
 .buttonLogin {
@@ -178,7 +176,8 @@ h1{
 .textbox {
     width: 1000px;
     height: 30px;
-    background-color: rgb(242, 242, 242)
+    background-color: rgb(242, 242, 242);
+    border: 1px;
 }
 
 .buildAmazingThings {
@@ -212,10 +211,18 @@ h1{
 }
 
 .seePlans {
-    background-color: #E66A6A;
+    background-color: #e22c2c;
     padding: 10px;
     font-size: 20px;
     width: 200px;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 5px 5px #eb9999;
+    margin-right: 10px;
 }
 
 .joinForFreeBtn{
@@ -224,10 +231,21 @@ h1{
     margin-bottom: 40px;
     font-size: 20px;
     width: 200px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .buttonSearch {
-    background-color: #E66A6A;
+    background-color: #e22c2c;
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .joinForFree{
@@ -239,12 +257,12 @@ h1{
 .createAnOrgBtn {
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 mark {
@@ -254,4 +272,35 @@ mark {
 a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 30px;
+    margin-top: 20px;
+    height: 200px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  h2{
+      color: #e22c2c;
+      font-size: 16px;
+  }
+
+p {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+  .images1 {
+    width: 70px;
+    height: 30px;
+    padding-bottom: 10px;
 }
