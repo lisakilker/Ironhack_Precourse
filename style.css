@@ -24,6 +24,7 @@ nav ul {
     justify-content: space-between;
     align-items: center;
     margin-top: 10;
+    padding-right: 10px;
 }
   
 nav a {
@@ -86,6 +87,7 @@ ul {
    background: 232,217,217,.3;;
    padding: 6px;
    color: #fff;
+   font-size: 14px;
 }
 
 h1{
@@ -95,7 +97,8 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 80px;
+    padding-top: 50px;
+    margin-top: 10px;
 }
 
 .essentialJavascript {
@@ -148,6 +151,8 @@ h1{
     background-color: #fff;
     font-size: 14px;
     margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .buttonJoin {
@@ -155,26 +160,22 @@ h1{
     position: relative;
     background-color: #fff;
     font-size: 14px;
-outline:1px;
+    outline: 0.05px;
     background-color: white;
-   
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    
 }
 
 .buttonLogin {
     padding: 5px;
-    position: relative;
     background-color: #fff;
     font-size: 14px;
     border: none;
-    align-items: flex-end; 
+    float: right;
 }
 
 .textbox {
-    width: 1000px;
+    width: 900px;
     height: 30px;
     background-color: rgb(242, 242, 242);
     border: 1px;
@@ -196,7 +197,7 @@ outline:1px;
 }
 
 .textBoxDiv{
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .firstButtons {
@@ -250,7 +251,6 @@ outline:1px;
 
 .joinForFree{
     background-color: #E2DCDC;
-    margin-top: 5px;
     padding-bottom: 15px;
 }
 
@@ -279,10 +279,9 @@ a, a:hover, a:focus, a:active {
     width: 20%;
     padding: 30px;
     margin-top: 20px;
-    height: 200px; /* Should be removed. Only for demonstration */
+    height: 200px;
   }
-  
-  /* Clear floats after the columns */
+
   .row:after {
     content: "";
     display: table;
